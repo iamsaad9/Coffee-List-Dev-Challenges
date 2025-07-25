@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Coffee-List-Dev-Challenges/static/css/main.55af41e8.css",
+    "main.js": "/Coffee-List-Dev-Challenges/static/js/main.bf795554.js",
+    "static/js/453.376afdd8.chunk.js": "/Coffee-List-Dev-Challenges/static/js/453.376afdd8.chunk.js",
+    "index.html": "/Coffee-List-Dev-Challenges/index.html",
+    "main.55af41e8.css.map": "/Coffee-List-Dev-Challenges/static/css/main.55af41e8.css.map",
+    "main.bf795554.js.map": "/Coffee-List-Dev-Challenges/static/js/main.bf795554.js.map",
+    "453.376afdd8.chunk.js.map": "/Coffee-List-Dev-Challenges/static/js/453.376afdd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55af41e8.css",
+    "static/js/main.bf795554.js"
+  ]
+}
