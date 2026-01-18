@@ -17,10 +17,10 @@ function App() {
   const width = useWindowWidth();
   const backgroundImage =
     width > 1280
-      ? "url(/resources/bg-cafe-lg.jpg)"
+      ? `${process.env.PUBLIC_URL}/resources/bg-cafe-lg.jpg`
       : width > 1024
-      ? "url(/resources/bg-cafe-sm.jpg)"
-      : "url(/resources/bg-cafe.jpg)";
+      ? `${process.env.PUBLIC_URL}/bg-cafe-sm.jpg`
+      : `${process.env.PUBLIC_URL}/bg-cafe.jpg)`;
   return (
     <div
       style={{

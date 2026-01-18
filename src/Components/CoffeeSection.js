@@ -46,8 +46,8 @@ function CoffeeSection() {
     width > 1000
       ? "repeat(3, 1fr)"
       : width > 700
-      ? "repeat(2, 1fr)"
-      : "repeat(1, 1fr)";
+        ? "repeat(2, 1fr)"
+        : "repeat(1, 1fr)";
 
   const Containerpadding =
     width > 1500 ? "6rem 10rem" : width > 1024 ? "8rem 6rem" : "4rem 2rem";
@@ -80,7 +80,7 @@ function CoffeeSection() {
         }}
       >
         <img
-          src="/resources/vector.svg"
+          src={`${process.env.PUBLIC_URL}/resources/vector.svg`}
           alt="Vector"
           style={{
             position: "absolute",
@@ -117,7 +117,7 @@ function CoffeeSection() {
         <span
           style={{
             padding: "8px 10px",
-            backgroundColor: activeButton == 1 ? "#4D5562" : "transparent",
+            backgroundColor: activeButton === 1 ? "#4D5562" : "transparent",
             borderRadius: "8px",
             fontWeight: "bold",
             color: "white",
